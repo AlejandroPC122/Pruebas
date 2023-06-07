@@ -12,6 +12,6 @@ steps:
     scriptType: 'bash'
     scriptLocation: 'inlineScript'
     inlineScript: |
-      sudo apt-get install wget -y 
-      sudo wget https://github.com/AlejandroPC122/Pruebas.git
-      scp */esteno.md myadmin@20.101.139.39:/home/myadmin/
+      echo "funciono creo"
+      #sudo apt-get install wget -y 
+      #sudo wget https://github.com/AlejandroPC122/Pruebas.git
