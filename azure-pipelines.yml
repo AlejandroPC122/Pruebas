@@ -4,7 +4,7 @@ trigger:
       - main
 
 pool:
-  vmImage: 'ubuntu-latest'
+  name: vm1web
 
 steps:
 - task: AzureCLI@2
