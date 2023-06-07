@@ -9,7 +9,6 @@ pool:
 steps:
 - task: AzureCLI@2
   inputs:
-    azureSubscription: 'mi_suscripción_azure'  # Reemplaza con tu suscripción de Azure
     scriptType: 'bash'
     scriptLocation: 'inlineScript'
     inlineScript: |
