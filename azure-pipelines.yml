@@ -4,14 +4,13 @@ trigger:
       - main
 
 pool:
-  name: vm1web
+  name: 'vm1web'
 
 steps:
-- task: AzureCLI@2
+- task: Bash@3
   inputs:
-    scriptType: 'bash'
-    scriptLocation: 'inlineScript'
-    inlineScript: |
+    targetType: 'inline'
+    script: |
       echo "funciono creo"
       #sudo apt-get install wget -y 
       #sudo wget https://github.com/AlejandroPC122/Pruebas.git
