@@ -4,7 +4,7 @@ trigger:
       - main
 
 pool:
-  name: 'vm1web'
+  name: Default
 
 steps:
 - task: Bash@3
