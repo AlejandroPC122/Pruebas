@@ -5,7 +5,7 @@ trigger:
 
 pool:
   name: Default
-
+steps:
 - task: AzureStaticWebApp@0
   inputs:
     skip_app_build: true
