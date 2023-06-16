@@ -6,11 +6,9 @@ trigger:
 pool:
   name: Default
 
-steps:
-- task: Bash@3
+- task: AzureStaticWebApp@0
   inputs:
-    targetType: 'inline'
-    script: 
-      echo "funciono creo"
-      #sudo apt-get install wget -y 
-      #sudo wget https://github.com/AlejandroPC122/Pruebas.git
+    skip_app_build: true
+    skip_api_build: true
+    is_static_export: true
+    verbose: true
