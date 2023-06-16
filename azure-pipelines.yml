@@ -12,3 +12,8 @@ pool:
     skip_api_build: true
     is_static_export: true
     verbose: true
+
+- task: IISWebAppDeploymentOnMachineGroup@0
+  inputs:
+    WebSiteName: 'pruebas'
+    Package: '$(System.DefaultWorkingDirectory)\**\*.zip'
